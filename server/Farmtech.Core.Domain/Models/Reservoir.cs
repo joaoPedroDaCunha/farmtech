@@ -8,6 +8,12 @@ public class Reservoir
     public string name{get;set;}
     //utilizado para o usuario referenciar o local que esta o reservatorio
     public string local{get;set;}
-    //utilizado para interligar com o WorkEspace a qual esse reservatorio pertencce 
+    // inicio das variaves utilizadas para as regras de negocio
+    public DateTime data {get;set;}
+    public decimal capacidade{get;set;}
+    public decimal altura{get;set;}
+    public decimal volume_atual{get;set;}
+    //fim das variaves utilizadas para as regras de negocio
+    //utilizado para interligar com o WorkEspace a qual esse reservatorio pertence
     public int foreign_key{get;set;}
-}
+};
