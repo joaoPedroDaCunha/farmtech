@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8qwPXBpR1G4Os74IDPTy7ssC5WOJskKOmhP3BeVDC7U=",
+  "Source": "Farmtech.Core.Api",
+  "BasePath": "_content/Farmtech.Core.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
