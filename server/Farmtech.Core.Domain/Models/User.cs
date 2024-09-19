@@ -1,3 +1,4 @@
+
 namespace Farmtech.Core.Domain.Models;
 //criando a classe usuario
 public class User
