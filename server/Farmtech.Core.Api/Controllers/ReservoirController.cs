@@ -5,13 +5,13 @@ namespace Farmtech.Core.Api.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class WorkspacesController : ControllerBase
+public class ReservoirController : ControllerBase
 {
 
     [HttpGet]
     public IActionResult Get()
     {
-        var Work = new Workspace(){
+        var reservoir = new Reservoir(){
 
         };
         return Ok("Hello World");

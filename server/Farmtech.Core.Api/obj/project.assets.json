@@ -476,19 +476,19 @@
     ]
   },
   "packageFolders": {
-    "/home/gustavo/.nuget/packages/": {}
+    "C:\\Users\\NOVORUMO65\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/gustavo/learning/farmtech/server/Farmtech.Core.Api/Farmtech.Core.Api.csproj",
+      "projectUniqueName": "C:\\Users\\NOVORUMO65\\Projetos\\farmtech\\server\\Farmtech.Core.Api\\Farmtech.Core.Api.csproj",
       "projectName": "Farmtech.Core.Api",
-      "projectPath": "/home/gustavo/learning/farmtech/server/Farmtech.Core.Api/Farmtech.Core.Api.csproj",
-      "packagesPath": "/home/gustavo/.nuget/packages/",
-      "outputPath": "/home/gustavo/learning/farmtech/server/Farmtech.Core.Api/obj/",
+      "projectPath": "C:\\Users\\NOVORUMO65\\Projetos\\farmtech\\server\\Farmtech.Core.Api\\Farmtech.Core.Api.csproj",
+      "packagesPath": "C:\\Users\\NOVORUMO65\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\NOVORUMO65\\Projetos\\farmtech\\server\\Farmtech.Core.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/gustavo/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\NOVORUMO65\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -500,8 +500,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/gustavo/learning/farmtech/server/Farmtech.Core.Domain/Farmtech.Core.Domain.csproj": {
-              "projectPath": "/home/gustavo/learning/farmtech/server/Farmtech.Core.Domain/Farmtech.Core.Domain.csproj"
+            "C:\\Users\\NOVORUMO65\\Projetos\\farmtech\\server\\Farmtech.Core.Domain\\Farmtech.Core.Domain.csproj": {
+              "projectPath": "C:\\Users\\NOVORUMO65\\Projetos\\farmtech\\server\\Farmtech.Core.Domain\\Farmtech.Core.Domain.csproj"
             }
           }
         }
@@ -549,7 +549,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
