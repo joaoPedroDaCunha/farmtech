@@ -1,8 +1,11 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace Farmtech.Core.Domain.Models;
 
 public class DataReservoir
 {
     //id unico da informação
+    [Key]
     public int id {get;set;}
      // inicio das variaves utilizadas para as regras de negocio
     public DateTime data {get;set;}

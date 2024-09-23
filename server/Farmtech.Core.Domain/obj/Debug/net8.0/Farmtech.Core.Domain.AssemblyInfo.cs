@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Farmtech.Core.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+842efdb423db89e92270725d6c20b2434648947f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+174a062671b82f7c7d45b7ff7e18ca3cbe8d6417")]
 [assembly: System.Reflection.AssemblyProductAttribute("Farmtech.Core.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Farmtech.Core.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

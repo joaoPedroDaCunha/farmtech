@@ -1,10 +1,13 @@
+using System.ComponentModel.DataAnnotations;
 
 namespace Farmtech.Core.Domain.Models;
 //Criando o classe reservatorio e seu atributos 
 public class Reservoir
 {
+    [Key]
     public int id {get;set;}
     //variavel para armazenar o local na rede que o aparelho usado para coletar os dados esta
+    [Required(ErrorMessage = "Por favor informe o IP do aparelho")]
     public int TCPIP{get;set;}
     public string name{get;set;}
     //utilizado para o usuario referenciar o local que esta o reservatorio
