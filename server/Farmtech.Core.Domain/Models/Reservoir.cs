@@ -1,4 +1,7 @@
 using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
+using System.ling;
+using System.Threading.Tasks;
 
 namespace Farmtech.Core.Domain.Models;
 //Criando o classe reservatorio e seu atributos 
@@ -8,10 +11,14 @@ public class Reservoir
     public int id {get;set;}
     //variavel para armazenar o local na rede que o aparelho usado para coletar os dados esta
     [Required(ErrorMessage = "Por favor informe o IP do aparelho")]
-    public int TCPIP{get;set;}
-    public string name{get;set;}
+    [Range(9,9,ErroMessage ="O iP deve ter nove numeros")]
+    public int TCPIP{get;set;};
+
+    [Column(TypeName ="nvarchar(100)")]
+    public string name{get;set;} = string.Empty;
     //utilizado para o usuario referenciar o local que esta o reservatorio
-    public string local{get;set;}
+    [Column(TypeName ="nvarchar(100)")]
+    public string local{get;set;} = string.Empty;
     //utilizado para interligar com o WorkEspace a qual esse reservatorio pertence
     public int foreign_key{get;set;}
 };
