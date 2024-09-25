@@ -16,5 +16,7 @@ public class DataReservoir
     public decimal altura{get;set;}
     public decimal volume_atual{get;set;}
     //fim das variaves utilizadas para as regras de negocio
-    public int foreign_key
+    //variavel para ligar com o reservatorio referente a esses dados
+    public int? ReservoirId{get;set;}
+    public Reservoir? Reservoir{get;set;}
 }

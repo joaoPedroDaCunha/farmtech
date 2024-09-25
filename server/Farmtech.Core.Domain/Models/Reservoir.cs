@@ -19,6 +19,10 @@ public class Reservoir
     //utilizado para o usuario referenciar o local que esta o reservatorio
     [Column(TypeName ="nvarchar(100)")]
     public string local{get;set;} = string.Empty;
+    
+    //list de dados desse reservatorio
+    public List<DataReservoir> DataReservoir {get;set;} = new List<DataReservoir>();
     //utilizado para interligar com o WorkEspace a qual esse reservatorio pertence
-    public int foreign_key{get;set;}
+    public int? WorkspaceId{get;set;}
+    public Workspace? Workspace{get;set}
 };

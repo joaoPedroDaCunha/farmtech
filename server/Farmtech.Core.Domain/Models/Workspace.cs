@@ -12,6 +12,9 @@ public class Workspace
     public string Name { get; set; } = string.Empty;
     public string Description { get; set; }
 
-    //lista de email  cadastrada nesse Workspace
+    //lista de emails  cadastrados nesse Workspace
     public List<User> User {get;set;} = new List<User>();
+    
+    //lista de reservatorios cadastrados nesse Workspace
+    public List<Reservoir> Reservoir {get;set;} = new List<Reservoir>();
 };
