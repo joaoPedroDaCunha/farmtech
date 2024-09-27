@@ -6,10 +6,7 @@ export const RootLayout = () => {
     //o usuario esta atenticado ele pode acessar se não faça um redirect para a pagina de login
 
     return (
-        <div className="flex  gap-2 h-screen w-full bg-gray-100">
-            <div className="bg-white w-80">
-
-            </div>
+        <div className="flex w-full h-screen gap-2 bg-gray-100">
             <Outlet />
         </div>
     )
