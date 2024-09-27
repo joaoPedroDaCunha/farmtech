@@ -9,7 +9,7 @@ export const Register = () => {
     return (
 
         <div className="bg-white p-10 gap-4 flex flex-col rounded-lg shadow-lg max-w-md w-full">
-            <h1 className="text-3xl font-semibold my-4">Create Account</h1>
+            <h1 className="text-3xl my-4 text-center">Create Account</h1>
             <Input size="lg" color="blue" label="Name" />
             <Input size="lg" color="blue" label="Email" />
             <Input size="lg" color="blue" label="Password" />
