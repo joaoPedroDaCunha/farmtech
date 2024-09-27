@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/Farmtech.Core.Api.props" />
+</Project>

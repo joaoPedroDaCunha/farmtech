@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Farmtech.Core.Api", "Farmtech.Core.Api\Farmtech.Core.Api.csproj", "{CEFF6732-8411-45FF-9520-C38C0BA01631}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Farmtech.Core.Domain", "Farmtech.Core.Domain\Farmtech.Core.Domain.csproj", "{A9D89E1C-6FCA-4D56-A7A5-985291E18D81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEFF6732-8411-45FF-9520-C38C0BA01631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEFF6732-8411-45FF-9520-C38C0BA01631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEFF6732-8411-45FF-9520-C38C0BA01631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEFF6732-8411-45FF-9520-C38C0BA01631}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9D89E1C-6FCA-4D56-A7A5-985291E18D81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9D89E1C-6FCA-4D56-A7A5-985291E18D81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9D89E1C-6FCA-4D56-A7A5-985291E18D81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9D89E1C-6FCA-4D56-A7A5-985291E18D81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1619C10-F8F6-4E9B-A960-07604E0917B2}
+	EndGlobalSection
+EndGlobal

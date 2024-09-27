@@ -1,0 +1,22 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "Farmtech.Core.Domain/obj": true,
+        "Farmtech.Core.Domain/bin": true,
+        "Farmtech.Core.Api/obj": true,
+        "Farmtech.Core.Api/bin": true,
+        "Farmtech.Core.Api/Properties": true
+    },
+    "hide-files.files": [
+        "Farmtech.Core.Domain/obj",
+        "Farmtech.Core.Domain/bin",
+        "Farmtech.Core.Api/obj",
+        "Farmtech.Core.Api/bin",
+        "Farmtech.Core.Api/Properties"
+    ]
+}
