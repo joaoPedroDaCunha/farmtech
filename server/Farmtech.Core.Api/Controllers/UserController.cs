@@ -10,9 +10,7 @@ public class UserController : ControllerBase
     [HttpGet]
     public IActionResult Get()
     {
-        var use = new User(){
-
-        };
+        var use = new User();
         return Ok("Hello World");
     }
 }

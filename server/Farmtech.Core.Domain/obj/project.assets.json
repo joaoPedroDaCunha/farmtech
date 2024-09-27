@@ -561,19 +561,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\NOVORUMO65\\.nuget\\packages\\": {}
+    "/home/gustavo/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\NOVORUMO65\\Projetos\\farmtech\\server\\Farmtech.Core.Domain\\Farmtech.Core.Domain.csproj",
+      "projectUniqueName": "/home/gustavo/learning/farmtech/server/Farmtech.Core.Domain/Farmtech.Core.Domain.csproj",
       "projectName": "Farmtech.Core.Domain",
-      "projectPath": "c:\\Users\\NOVORUMO65\\Projetos\\farmtech\\server\\Farmtech.Core.Domain\\Farmtech.Core.Domain.csproj",
-      "packagesPath": "C:\\Users\\NOVORUMO65\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\NOVORUMO65\\Projetos\\farmtech\\server\\Farmtech.Core.Domain\\obj\\",
+      "projectPath": "/home/gustavo/learning/farmtech/server/Farmtech.Core.Domain/Farmtech.Core.Domain.csproj",
+      "packagesPath": "/home/gustavo/.nuget/packages/",
+      "outputPath": "/home/gustavo/learning/farmtech/server/Farmtech.Core.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\NOVORUMO65\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/gustavo/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -623,7 +623,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

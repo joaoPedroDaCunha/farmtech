@@ -11,9 +11,7 @@ public class WorkspacesController : ControllerBase
     [HttpGet]
     public IActionResult Get()
     {
-        var Work = new Workspace(){
-
-        };
+        var Work = new Workspace();
         return Ok("Hello World");
     }
 
