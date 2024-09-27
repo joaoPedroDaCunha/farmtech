@@ -1,20 +1,18 @@
-using Microsoft.AspNetCore.Mvc;
 using Farmtech.Core.Domain.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Farmtech.Core.Api.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class WorkspacesController : ControllerBase
+public class UserController : ControllerBase
 {
-
     [HttpGet]
     public IActionResult Get()
     {
-        var Work = new Workspace(){
+        var use = new User(){
 
         };
         return Ok("Hello World");
     }
-
 }
