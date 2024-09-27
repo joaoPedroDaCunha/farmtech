@@ -1,38 +1,57 @@
 import { Button, Input } from "@material-tailwind/react"
 import { FcGoogle } from "react-icons/fc";
 import { Link } from "react-router-dom";
+import { signInWithPopup, GoogleAuthProvider, signInWithEmailAndPassword } from 'firebase/auth'
+import { auth } from "../../service/firebase";
 
 
 export const Login = () => {
 
 
+    const handleLoginWithGoogle = () => {
+        signInWithPopup(auth, new GoogleAuthProvider())
+            .then((result) => {
+                console.log(result)
+            }).catch((error) => {
+                console.log(error)
+            });
+    }
+
+    const handleLoginWithCredential = () => {
+        signInWithEmailAndPassword(auth, "gustavohenrico34@gmail.com", "12345678").then((userCredential) => {
+            console.log(userCredential)
+        })
+    }
+
+
     return (
-        <div className="flex flex-col gap-2 max-w-md w-full">
-            <div className="bg-white p-10 gap-4 flex flex-col rounded-lg shadow-lg w-full">
-                <h1 className="text-3xl my-4 text-center itens-center">Welcome </h1>
+        <div className="flex flex-col w-full max-w-md gap-2">
+            <div className="flex flex-col w-full gap-4 p-10 bg-white rounded-lg shadow-lg">
+                <h1 className="my-4 text-3xl text-center itens-center">Welcome </h1>
                 <Input color="blue" label="Email" size="lg" />
                 <Input color="blue" label="Password" size="lg" />
-                <Button color="blue" className="my-2">Login</Button>
+                <Button onClick={handleLoginWithCredential} color="blue" className="my-2">Login</Button>
 
-                <div className="relative flex py-2 items-center">
+                <div className="relative flex items-center py-2">
                     <div className="flex-grow border-t border-gray-400"></div>
                     <span className="flex-shrink mx-4 text-sm text-gray-400">Or</span>
                     <div className="flex-grow border-t border-gray-400"></div>
                 </div>
 
                 <Button
+                    onClick={handleLoginWithGoogle}
                     variant="outlined"
                     size="lg"
-                    className="flex h-12 border-blue-gray-200 itens-center justify-center gap-2"
+                    className="flex justify-center h-12 gap-2 border-blue-gray-200 itens-center"
                     fullWidth>
                     <FcGoogle size={20} />
                     Sign in with Google
                 </Button>
             </div>
 
-            <div className="bg-white p-5 gap-1 flex rounded-lg shadow-lg w-full justify-center items-center">
+            <div className="flex items-center justify-center w-full gap-1 p-5 bg-white rounded-lg shadow-lg">
                 <p>Don't have an account?</p>
-                <Link to="/auth/register" className="text-blue-600 underline font-semibold ">Register</Link>
+                <Link to="/auth/register" className="font-semibold text-blue-600 underline ">Register</Link>
             </div>
         </div>
     )
