@@ -1,36 +1,15 @@
 import { Button, Input } from "@material-tailwind/react"
 import { FcGoogle } from "react-icons/fc";
 import { Link } from "react-router-dom";
-import { signInWithPopup, GoogleAuthProvider, signInWithEmailAndPassword } from 'firebase/auth'
-import { auth } from "../../service/firebase";
-
 
 export const Login = () => {
-
-
-    const handleLoginWithGoogle = () => {
-        signInWithPopup(auth, new GoogleAuthProvider())
-            .then((result) => {
-                console.log(result)
-            }).catch((error) => {
-                console.log(error)
-            });
-    }
-
-    const handleLoginWithCredential = () => {
-        signInWithEmailAndPassword(auth, "gustavohenrico34@gmail.com", "12345678").then((userCredential) => {
-            console.log(userCredential)
-        })
-    }
-
-
     return (
         <div className="flex flex-col w-full max-w-md gap-2">
             <div className="flex flex-col w-full gap-4 p-10 bg-white rounded-lg shadow-lg">
                 <h1 className="my-4 text-3xl text-center itens-center">Welcome </h1>
                 <Input color="blue" label="Email" size="lg" />
                 <Input color="blue" label="Password" size="lg" />
-                <Button onClick={handleLoginWithCredential} color="blue" className="my-2">Login</Button>
+                <Button color="blue" className="my-2">Login</Button>
 
                 <div className="relative flex items-center py-2">
                     <div className="flex-grow border-t border-gray-400"></div>
@@ -39,7 +18,6 @@ export const Login = () => {
                 </div>
 
                 <Button
-                    onClick={handleLoginWithGoogle}
                     variant="outlined"
                     size="lg"
                     className="flex justify-center h-12 gap-2 border-blue-gray-200 itens-center"

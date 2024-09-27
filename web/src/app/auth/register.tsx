@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 
 export const Register = () => {
 
-
     return (
         <div className="flex flex-col w-full max-w-md gap-2">
             <div className="flex flex-col w-full gap-4 p-10 bg-white rounded-lg shadow-lg">
