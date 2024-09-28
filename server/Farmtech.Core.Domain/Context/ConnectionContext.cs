@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Farmtech.Core.Domain.Models;
 
-public class ConnectionContext : DbContext 
+public class ConnectionContext : DbContext
 {
     public DbSet<Workspace> Workspaces {get;set;}
 
@@ -12,8 +12,6 @@ public class ConnectionContext : DbContext
 
     public DbSet<Reservoir> Reservoirs {get;set;}
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        base.OnConfiguring(optionsBuilder);
-    }
+    protected override void OnConfiguring(DbContextOptionsBuilder options)
+     => options.UseSqlite($"Data Source=./Data.db");
 }

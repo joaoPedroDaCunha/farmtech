@@ -1,5 +1,6 @@
 using Farmtech.Core.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.ObjectPool;
 
 namespace Farmtech.Core.Api.Controllers;
 
@@ -13,13 +14,15 @@ public class ReservoirController(IReservoirRepository reservoir) : ControllerBas
     [HttpPost]
     public IActionResult Post()
     {
-        return Ok("Hello Word");
+        return Ok();
     }
 
     [HttpGet]
     public IActionResult Get()
     {
-        return Ok("Hello World");
+        var reservoir = _Reservoir.Get();
+
+        return Ok(reservoir);
     }
 
 }

@@ -13,13 +13,13 @@ public class WorkspacesController(Workspace workspace) : ControllerBase
     [HttpPost]
     public IActionResult Post()
     {
-        return Ok("Hello World");
+        return Ok();
     }
 
     [HttpGet]
     public IActionResult Get()
     {
-        return Ok("Hello World");
+        return Ok();
     }
 
 }

@@ -19,6 +19,8 @@ public class UserController(IUserRepository user) : ControllerBase
     [HttpGet]
     public IActionResult Get()
     {
-        return Ok("Hello World");
+        var user = _User.Get();
+
+        return Ok(user);
     }
 }
