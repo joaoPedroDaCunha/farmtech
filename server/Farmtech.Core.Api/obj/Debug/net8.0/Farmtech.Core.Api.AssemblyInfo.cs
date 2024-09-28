@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Farmtech.Core.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ec6ebb99f378148bb1206afa1abd2d3955fc83d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31ab42f2c592e27a63eec225eb1075f3442f8374")]
 [assembly: System.Reflection.AssemblyProductAttribute("Farmtech.Core.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Farmtech.Core.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
