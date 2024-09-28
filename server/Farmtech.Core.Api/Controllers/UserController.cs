@@ -5,12 +5,20 @@ namespace Farmtech.Core.Api.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class UserController : ControllerBase
+public class UserController(IUserRepository user) : ControllerBase
 {
+
+    private readonly IUserRepository _User = user;
+
+    [HttpPost]
+    public IActionResult Post()
+    {
+        return Ok();
+    }
+
     [HttpGet]
     public IActionResult Get()
     {
-        var use = new User();
         return Ok("Hello World");
     }
 }

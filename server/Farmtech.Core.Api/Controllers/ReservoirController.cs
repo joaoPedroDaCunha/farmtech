@@ -5,13 +5,20 @@ namespace Farmtech.Core.Api.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class ReservoirController : ControllerBase
+public class ReservoirController(IReservoirRepository reservoir) : ControllerBase
 {
+
+    private readonly IReservoirRepository _Reservoir = reservoir;
+
+    [HttpPost]
+    public IActionResult Post()
+    {
+        return Ok("Hello Word");
+    }
 
     [HttpGet]
     public IActionResult Get()
     {
-        var reservoir = new Reservoir();
         return Ok("Hello World");
     }
 
