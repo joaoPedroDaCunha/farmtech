@@ -11,7 +11,15 @@ public class ConnectionContext : DbContext
     public DbSet<Member> Members { get; set; }
 
     public DbSet<Reservoir> Reservoirs { get; set; }
+    public string DbPath { get; }
+
+    public ConnectionContext()
+    {
+        var folder = Environment.SpecialFolder.LocalApplicationData;
+        var path = Environment.GetFolderPath(folder);
+        DbPath = System.IO.Path.Join(path,"Data.db");
+    }
 
     protected override void OnConfiguring(DbContextOptionsBuilder options)
-     => options.UseSqlite($"Data Source=./Data.db");
+     => options.UseSqlite($"Data Source={DbPath}");
 }
