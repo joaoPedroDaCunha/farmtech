@@ -5,14 +5,21 @@ namespace Farmtech.Core.Api.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class WorkspacesController : ControllerBase
+public class WorkspacesController(Workspace workspace) : ControllerBase
 {
+
+    private readonly Workspace _Workspace = workspace;
+
+    [HttpPost]
+    public IActionResult Post()
+    {
+        return Ok();
+    }
 
     [HttpGet]
     public IActionResult Get()
     {
-        var Work = new Workspace();
-        return Ok("Hello World");
+        return Ok();
     }
 
 }
