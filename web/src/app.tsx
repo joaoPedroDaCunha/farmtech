@@ -4,6 +4,7 @@ import { Login } from "./app/auth/login";
 import { AuthLayout } from "./app/auth/layout";
 import { RootLayout } from "./app/root/layout";
 import { Register } from "./app/auth/register";
+import { Reservoir } from "./app/root/reservoir";
 
 export function App() {
 
@@ -12,6 +13,7 @@ export function App() {
 
       <Route path="/" element={<RootLayout />} >
         <Route path="/" element={<Home />} />
+        <Route path="reservoir" element={<Reservoir/>} />
       </Route>
 
       <Route path="/auth" element={<AuthLayout />} >
