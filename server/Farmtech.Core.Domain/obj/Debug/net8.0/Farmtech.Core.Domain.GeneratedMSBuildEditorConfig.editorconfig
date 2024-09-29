@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Farmtech.Core.Domain
-build_property.ProjectDir = /home/eu/Projects/C#/farmtech/server/Farmtech.Core.Domain/
+build_property.ProjectDir = /home/gustavo/learning/farmtech/server/Farmtech.Core.Domain/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

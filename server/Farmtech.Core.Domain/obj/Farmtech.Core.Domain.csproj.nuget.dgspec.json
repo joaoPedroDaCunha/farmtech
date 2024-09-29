@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/eu/Projects/C#/farmtech/server/Farmtech.Core.Domain/Farmtech.Core.Domain.csproj": {}
+    "/home/gustavo/learning/farmtech/server/Farmtech.Core.Domain/Farmtech.Core.Domain.csproj": {}
   },
   "projects": {
-    "/home/eu/Projects/C#/farmtech/server/Farmtech.Core.Domain/Farmtech.Core.Domain.csproj": {
+    "/home/gustavo/learning/farmtech/server/Farmtech.Core.Domain/Farmtech.Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/eu/Projects/C#/farmtech/server/Farmtech.Core.Domain/Farmtech.Core.Domain.csproj",
+        "projectUniqueName": "/home/gustavo/learning/farmtech/server/Farmtech.Core.Domain/Farmtech.Core.Domain.csproj",
         "projectName": "Farmtech.Core.Domain",
-        "projectPath": "/home/eu/Projects/C#/farmtech/server/Farmtech.Core.Domain/Farmtech.Core.Domain.csproj",
-        "packagesPath": "/home/eu/.nuget/packages/",
-        "outputPath": "/home/eu/Projects/C#/farmtech/server/Farmtech.Core.Domain/obj/",
+        "projectPath": "/home/gustavo/learning/farmtech/server/Farmtech.Core.Domain/Farmtech.Core.Domain.csproj",
+        "packagesPath": "/home/gustavo/.nuget/packages/",
+        "outputPath": "/home/gustavo/learning/farmtech/server/Farmtech.Core.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/eu/.nuget/NuGet/NuGet.Config"
+          "/home/gustavo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -57,6 +62,10 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.8, )"
             },
@@ -91,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
