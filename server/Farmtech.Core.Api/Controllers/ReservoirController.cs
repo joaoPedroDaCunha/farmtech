@@ -14,6 +14,17 @@ public class ReservoirController(IReservoirRepository reservoir) : ControllerBas
     [HttpPost]
     public IActionResult Post()
     {
+        var reservoir = new Reservoir
+        {
+            Name = "Reservoir 1",
+            AddressIp = "",
+            Altura = 0,
+            Capacidade = 0,
+            VolumeAtual = 0,
+        };
+
+        _Reservoir.Add(reservoir);
+
         return Ok();
     }
 
