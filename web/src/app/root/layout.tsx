@@ -16,9 +16,11 @@ export const RootLayout = () => {
     }
 
     return (
-        <div className="flex flex-col w-full h-screen gap-2 bg-gray-100">
+        <div className="flex flex-col w-full h-screen gap-2 overflow-hidden bg-gray-100">
             <HeaderBar />
-            <Outlet />
+            <div className="h-full mb-2 overflow-auto">
+                <Outlet />
+            </div>
         </div>
     )
 }

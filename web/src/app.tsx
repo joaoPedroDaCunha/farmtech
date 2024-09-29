@@ -1,9 +1,10 @@
 import { Route, Routes } from "react-router";
-import { Home } from "./app/root/home";
-import { Login } from "./app/auth/login";
+import { LoginPage } from "./app/auth/login";
+import { RegisterPage } from "./app/auth/register";
 import { AuthLayout } from "./app/auth/layout";
 import { RootLayout } from "./app/root/layout";
-import { Register } from "./app/auth/register";
+import { ReservoirPage } from "./app/root/reservoir";
+import { ReservoirDetailsPage } from "./app/root/reservoir/details";
 
 export function App() {
 
@@ -11,12 +12,13 @@ export function App() {
     <Routes>
 
       <Route path="/" element={<RootLayout />} >
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<ReservoirPage />} />
+        <Route path="reservoir/:id" element={<ReservoirDetailsPage />} />
       </Route>
 
       <Route path="/auth" element={<AuthLayout />} >
-        <Route path="login" element={<Login />} />
-        <Route path="register" element={<Register />} />
+        <Route path="login" element={<LoginPage />} />
+        <Route path="register" element={<RegisterPage />} />
       </Route>
 
     </Routes>

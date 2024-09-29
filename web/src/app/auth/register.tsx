@@ -19,7 +19,7 @@ const formSchema = z.object({
 
 type FormValues = z.infer<typeof formSchema>;
 
-export const Register = () => {
+export const RegisterPage = () => {
     const [isLoading, setIsLoading] = useState(false);
     const { register, handleSubmit, getValues, formState: { errors } } = useForm<FormValues>({ resolver: zodResolver(formSchema) });
     const navigate = useNavigate();
