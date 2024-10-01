@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/gustavo/learning/farmtech/server/Farmtech.Core.Api/Farmtech.Core.Api.csproj": {}
+    "/home/eu/Projects/C#/farmtech/server/Farmtech.Core.Api/Farmtech.Core.Api.csproj": {}
   },
   "projects": {
-    "/home/gustavo/learning/farmtech/server/Farmtech.Core.Api/Farmtech.Core.Api.csproj": {
+    "/home/eu/Projects/C#/farmtech/server/Farmtech.Core.Api/Farmtech.Core.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/gustavo/learning/farmtech/server/Farmtech.Core.Api/Farmtech.Core.Api.csproj",
+        "projectUniqueName": "/home/eu/Projects/C#/farmtech/server/Farmtech.Core.Api/Farmtech.Core.Api.csproj",
         "projectName": "Farmtech.Core.Api",
-        "projectPath": "/home/gustavo/learning/farmtech/server/Farmtech.Core.Api/Farmtech.Core.Api.csproj",
-        "packagesPath": "/home/gustavo/.nuget/packages/",
-        "outputPath": "/home/gustavo/learning/farmtech/server/Farmtech.Core.Api/obj/",
+        "projectPath": "/home/eu/Projects/C#/farmtech/server/Farmtech.Core.Api/Farmtech.Core.Api.csproj",
+        "packagesPath": "/home/eu/.nuget/packages/",
+        "outputPath": "/home/eu/Projects/C#/farmtech/server/Farmtech.Core.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/gustavo/.nuget/NuGet/NuGet.Config"
+          "/home/eu/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/gustavo/learning/farmtech/server/Farmtech.Core.Domain/Farmtech.Core.Domain.csproj": {
-                "projectPath": "/home/gustavo/learning/farmtech/server/Farmtech.Core.Domain/Farmtech.Core.Domain.csproj"
+              "/home/eu/Projects/C#/farmtech/server/Farmtech.Core.Domain/Farmtech.Core.Domain.csproj": {
+                "projectPath": "/home/eu/Projects/C#/farmtech/server/Farmtech.Core.Domain/Farmtech.Core.Domain.csproj"
               }
             }
           }
@@ -36,11 +36,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -85,21 +80,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/gustavo/learning/farmtech/server/Farmtech.Core.Domain/Farmtech.Core.Domain.csproj": {
+    "/home/eu/Projects/C#/farmtech/server/Farmtech.Core.Domain/Farmtech.Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/gustavo/learning/farmtech/server/Farmtech.Core.Domain/Farmtech.Core.Domain.csproj",
+        "projectUniqueName": "/home/eu/Projects/C#/farmtech/server/Farmtech.Core.Domain/Farmtech.Core.Domain.csproj",
         "projectName": "Farmtech.Core.Domain",
-        "projectPath": "/home/gustavo/learning/farmtech/server/Farmtech.Core.Domain/Farmtech.Core.Domain.csproj",
-        "packagesPath": "/home/gustavo/.nuget/packages/",
-        "outputPath": "/home/gustavo/learning/farmtech/server/Farmtech.Core.Domain/obj/",
+        "projectPath": "/home/eu/Projects/C#/farmtech/server/Farmtech.Core.Domain/Farmtech.Core.Domain.csproj",
+        "packagesPath": "/home/eu/.nuget/packages/",
+        "outputPath": "/home/eu/Projects/C#/farmtech/server/Farmtech.Core.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/gustavo/.nuget/NuGet/NuGet.Config"
+          "/home/eu/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -117,11 +112,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -185,7 +175,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
